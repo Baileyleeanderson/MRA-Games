@@ -1,0 +1,19 @@
+<div id="main">
+<div id="wrapper">
+  <div class="words">
+    <form *ngIf="playword" >
+      <input type="text" name="guess.guess" [(ngModel)]="guess.guess"><br>
+      <button class="btn btn-info" (click)="player_guess()" type="submit">Guess Word</button>
+      <h2 class="redfont">{{guesses[0]}}</h2>
+      <h2 class="redfont">{{guesses[1]}}</h2>
+    </form>
+    <h1 *ngIf="playword">{{word_play}}</h1>
+    <!-- <img *ngIf="showcount" id="count" src="{{count}}"> -->
+    <h1 *ngIf="showcount" id="{{countcolor}}">{{count}}</h1>
+    <h1 id="answer" *ngIf="showanswer">Answer: {{answer}}</h1>
+    <h1 id="win" *ngIf="win">You Win!! {{answer}}</h1>
+    <h1 id="highscore">HighScore: {{highscore}}</h1>
+  </div>
+  <img id="imggif" src="{{execute}}">
+</div>
+</div>

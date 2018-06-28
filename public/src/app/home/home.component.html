@@ -1,0 +1,10 @@
+<div id="wrapper">
+  <img (mouseenter)="rpsrockShow()" [routerLink]="['rockpaperscissors']" src="./../assets/images/iconrps.jpg">
+  <img (mouseenter)="rpsdecipherShow()" [routerLink]="['decipher']" src="./../assets/images/iconexecute.jpg">
+  <img (mouseenter)="rpsmemShow()" [routerLink]="['memory']" src="./../assets/images/iconmem.png">
+  <div  id="rps">
+    <h1 *ngIf="rpsrock">A rock paper scissors game, be the nerd that defeats the bully!</h1>
+    <h1 *ngIf="rpsdecipher">Decipher the jumbled text before the time is out and the executioner wins!</h1>
+    <h1 *ngIf="rpsmem">Test your memorization skills in Memory Mind</h1>
+  </div>
+</div>

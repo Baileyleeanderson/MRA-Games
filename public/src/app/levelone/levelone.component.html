@@ -1,0 +1,30 @@
+<div id="wrapper">
+  <div class="gifs">
+    <div class="healths">
+      <div id="phealth">
+        <div id="phealth{{playerhealth}}"></div>
+        <h2>Player Health</h2>
+      </div>
+      <div id="ehealth">
+        <div id="ehealth{{enemyhealth}}"></div>
+        <h2>Enemy Health</h2>
+      </div>
+    </div>
+    
+    <div id="buttn">
+      <img id="playagain" (click)="newgame()" *ngIf="playagain" src="./../assets/images/playagain.gif">
+      <h1 *ngIf="result_text" id="result">{{result}}</h1>
+      <img *ngIf="buttons" (mouseenter)="rockclassb()" (mouseleave)="rockclassa()" src="./../assets/images/rockrealpng.png" (click)="play('rock')" class="{{rockclass}}">&nbsp;&nbsp;&nbsp;
+      <img *ngIf="buttons" (mouseenter)="paperclassb()" (mouseleave)="paperclassa()" src="./../assets/images/paper.png" (click)="play('paper')" class="{{paperclass}}">&nbsp;&nbsp;
+      <img *ngIf="buttons" (mouseenter)="scissorsclassb()" (mouseleave)="scissorsclassa()" src="./../assets/images/scissorsrealcopy.png" (click)="play('scissors')" class="{{scissorsclass}}">&nbsp;
+    </div>
+    <div class="shoot">
+      <img *ngIf="played" src="{{shoot}}">
+      <img *ngIf="result_text" class="imgclass" src="{{playerhand}}">
+      <img *ngIf="result_text" class="imgclass" src="{{enemyhand}}">
+      <img *ngIf="win" src="./../assets/images/win.gif">
+      <img *ngIf="lose" src="./../assets/images/gameover.gif">
+    </div>
+    <img class="giffight" src="{{giffs}}">
+  </div>
+</div>

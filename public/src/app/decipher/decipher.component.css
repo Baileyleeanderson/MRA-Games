@@ -1,0 +1,79 @@
+#main{
+    background-image: url('./../assets/appbg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+#wrapper{
+    background-image: url('./../assets/village.jpg');
+    background-size: cover;
+    height: 889px;
+    width: 1144px;
+    margin-left: 235px;
+    
+}
+.words{
+    text-align: center;
+}
+.redfont{
+    color: red;
+}
+form{
+    position: absolute;
+    margin-left: 134px;
+    margin-top: 25px;
+    padding: 15px;
+    width: 275px;
+}
+#answer{
+    color: rgb(251, 0, 0);
+}
+#win{
+    color: #00fb36;
+}
+#countgreen{
+    color: rgb(4, 243, 4);
+    font-size: 100px;
+    text-shadow:
+        -2px -2px 0 #000,
+		2px -2px 0 #000,
+		-2px 2px 0 #000,
+		2px 2px 0 #000;
+}
+#countyellow{
+    color: rgb(243, 123, 4);
+    font-size: 100px;
+    text-shadow:
+        -2px -2px 0 #000,
+		2px -2px 0 #000,
+		-2px 2px 0 #000,
+		2px 2px 0 #000;
+}
+#countred{
+    color: rgb(243, 4, 4);
+    font-size: 100px;
+    text-shadow:
+        -2px -2px 0 #000,
+		2px -2px 0 #000,
+		-2px 2px 0 #000,
+		2px 2px 0 #000;
+}
+#imggif{
+    vertical-align: middle;
+    border-style: none;
+    width: 1138px;
+    position: absolute;
+    top: 225px;
+}
+#highscore{
+    position: absolute;
+    right: 369px;
+    top: 98px;
+    color: rgb(255, 191, 0);
+    background-color: WHITE;
+    padding: 10px;
+    border-radius: 45PX;
+    border: black 3px solid;
+}
+button{
+    margin-top: 15px;
+}

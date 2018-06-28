@@ -1,0 +1,9 @@
+#wrapper{
+    background-image: url('assets/homebg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1100px;
+}
+.navbar{
+    border: 3px solid black;
+}

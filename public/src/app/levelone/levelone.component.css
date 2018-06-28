@@ -1,0 +1,157 @@
+
+#wrapper{
+    width: 1670px;
+    height: 1000px;
+    display: inline-block;
+    background-image: url('./../assets/appbg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.gifs{
+    background-image: url('assets/lockers.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin-left: 14%;
+}
+.giffight{
+    width: 600px;
+    vertical-align: top;
+    margin-left: 280px;
+}
+.rock{
+    width: 100px;
+}
+.rockb{
+    width: 100px;
+    border: 1px rgb(94, 209, 74) solid;
+    border-radius: 30%;
+}
+.scissors{
+    width: 100px;
+}
+.scissorsb{
+    width: 100px;
+    border: 1px rgb(94, 209, 74) solid;
+    border-radius: 30%;
+}
+.paper{
+    width: 100px;
+}
+.paperb{
+    width: 100px;
+    border: 1px rgb(94, 209, 74) solid;
+    border-radius: 30%;
+}
+.shoot{
+    margin-left: 72px;
+    width: 998px;
+    height: 174px;
+    display: inline-block;
+}
+.imgclass{
+    width: 100px;
+    display: inline-block;
+    margin-left: 284px;
+    border: 1px rgb(255, 255, 255) double;
+    background-color: rgb(56, 56, 56);
+    border-radius: 50%;
+    
+}
+#result{
+    margin-left: 110px;
+    color: rgb(255, 255, 255);
+    font-size: 38px;
+}
+#buttn{
+    margin-left: 25.5%;
+    display: block;
+    width: 344px;
+    height: 129px;
+    /* border: black 1px solid; */
+}
+.healths{
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    display: -webkit-inline-box;
+}
+#playagain{
+    text-align: center;
+    width: 326px;
+}
+#phealth{
+    border: 1px solid black;
+    width: 250px;
+    height: 20px;
+    text-align: center;
+    margin-right: 431px;
+    margin-left: 126px;
+}
+#phealth100{
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}
+#phealth80{
+    background-color: red;
+    width: 80%;
+    height: 100%;
+}
+#phealth60{
+    background-color: red;
+    width: 60%;
+    height: 100%;
+}
+#phealth40{
+    background-color: red;
+    width: 40%;
+    height: 100%;
+}
+#phealth20{
+    background-color: red;
+    width: 20%;
+    height: 100%;
+}
+#phealth0{
+    background-color: red;
+    width: 0%;
+    height: 100%;
+}
+#ehealth{
+    border: 1px solid black;
+    width: 250px;
+    height: 20px;
+    text-align: center;
+}
+#ehealth100{
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}
+#ehealth80{
+    background-color: red;
+    width: 80%;
+    height: 100%;
+}
+#ehealth60{
+    background-color: red;
+    width: 60%;
+    height: 100%;
+}
+#ehealth40{
+    background-color: red;
+    width: 40%;
+    height: 100%;
+}
+#ehealth20{
+    background-color: red;
+    width: 20%;
+    height: 100%;
+}
+#ehealth0{
+    background-color: red;
+    width: 0%;
+    height: 100%;
+}

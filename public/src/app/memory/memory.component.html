@@ -1,0 +1,14 @@
+<div id="wrapper">
+<div id="animation">
+  <div class="play">
+    <button id="playbutton" *ngIf="playbutton" class="btn btn-info" (click)="play()">Memorize Mind Play</button>
+  </div>
+  <h1 id="highscore">High Score: {{high_score}}</h1>
+  <div>
+    <img id="{{arrowclass}}" *ngIf="word" src="assets/images/{{arrow}}.png">
+    <h1 id="{{correctcolor}}">{{win}}</h1>
+  </div>
+  <img id="controls" src="./../assets/images/controls.png">
+</div>
+<img id="gif" src="{{rps}}">
+</div>
