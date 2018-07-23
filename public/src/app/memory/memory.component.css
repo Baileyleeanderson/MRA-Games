@@ -13,12 +13,14 @@
     height: 869px;
     width: 1395px;
     margin-left: 132px;
+    position: fixed;
 }
 #gif{
     width: 1171px;
     position: absolute;
     top: 180px;
-    left: 423px;
+    left: 515px;
+    position: fixed;
 }
 #controls{
     vertical-align: middle;
@@ -37,7 +39,7 @@
 }
 .play{
     text-align: center;
-    margin-top: 35px;
+    margin-top: 15px;
     display:inline-block;
 }
 #arrow{
